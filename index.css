@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One");
+
+body{
+  background-color: #FFEEDB;
+  font-family: "Fjalla One", sans-serif;
+}
+
+p{
+  margin: 0;
+  padding: 0;
+}
+
+hr{
+  margin: 30px;
+}
+
+#imgContainer{
+  display: inline-block;
+}
+
+#aigis{
+  position:absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+#aboutContainer{
+  width: 350px;
+  margin: 40px;
+  font-size: 3em;
+  text-align: right;
+}
+
+#aboutTitle{
+  padding: 0;
+  margin: 0;
+}
+
+#linkContainer{
+  background-color: #912F56AA;
+  box-shadow: 5px 5px #521945;
+}
+
+#socialLinks{
+  list-style: none;
+  padding: 20px;
+}
+
+#socialLinks li{
+  margin-bottom: 5px;
+}
