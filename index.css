@@ -1,8 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Fjalla+One");
+@import url("https://fonts.googleapis.com/css?family=Changa+One");
 
 body{
   background-color: #FFEEDB;
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Changa One", cursive;
+  color: #483C46;
 }
 
 hr{
@@ -15,26 +16,21 @@ hr{
 }
 
 #aigis{
-  position:absolute;
-  left: 650px;
+  position:fixed;
+  left: 700px;
   bottom: 0;
   z-index: -1;
 }
 
 #aboutContainer{
   float: left;
-  width: 500px;
+  width: 600px;
   margin: 40px;
   font-size: 3em;
   text-align: right;
 
-  position:absolute;
+  position:static;
   bottom: 300px;
-}
-
-#aboutTitle{
-  padding: 0;
-  margin: 0;
 }
 
 #linkContainer{
@@ -53,5 +49,9 @@ hr{
 }
 
 #socialLinks a{
-  color: #000000;
+  color: #483C46;
+}
+
+.platform{
+  color: #FFFFFF;
 }
