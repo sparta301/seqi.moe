@@ -5,11 +5,6 @@ body{
   font-family: "Fjalla One", sans-serif;
 }
 
-p{
-  margin: 0;
-  padding: 0;
-}
-
 hr{
   margin: 30px;
 }
@@ -26,7 +21,7 @@ hr{
 }
 
 #aboutContainer{
-  width: 350px;
+  width: 500px;
   margin: 40px;
   font-size: 3em;
   text-align: right;
@@ -38,6 +33,7 @@ hr{
 }
 
 #linkContainer{
+  text-transform: uppercase;
   background-color: #912F56AA;
   box-shadow: 5px 5px #521945;
 }
@@ -49,4 +45,8 @@ hr{
 
 #socialLinks li{
   margin-bottom: 5px;
+}
+
+#socialLinks a{
+  color: #000000;
 }
