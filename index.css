@@ -10,21 +10,26 @@ hr{
 }
 
 #imgContainer{
+  margin-left: 40px;
   display: inline-block;
 }
 
 #aigis{
   position:absolute;
+  left: 650px;
   bottom: 0;
-  right: 0;
   z-index: -1;
 }
 
 #aboutContainer{
+  float: left;
   width: 500px;
   margin: 40px;
   font-size: 3em;
   text-align: right;
+
+  position:absolute;
+  bottom: 300px;
 }
 
 #aboutTitle{
